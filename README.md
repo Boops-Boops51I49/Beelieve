@@ -6,13 +6,16 @@
 
 ### Hosted Project Link
 
-[mention your project hosted link here]
+[]
 
 ### Project Description
-A productivity extension that will 
+
+
 ### The Problem statement
 
-[What problem are you solving?]
 
 ### The Solution
 
+[](https://github.com/tinkerhub/tink-her-hack-temp/blob/main/README.md#the-solution)
+
+[How are you solving it?]

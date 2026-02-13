@@ -8,7 +8,8 @@
     "storage",
     "*://*.youtube.com/*",
     "*://*.reddit.com/*",
-    "*://*.instagram.com/*"
+    "*://*.instagram.com/*",
+    "*://*.x.com/*"
   ],
   "background": {
     "scripts": ["background.js"]
@@ -22,7 +23,8 @@
       "matches": [
         "*://*.youtube.com/*",
         "*://*.reddit.com/*",
-        "*://*.instagram.com/*"
+        "*://*.instagram.com/*",
+        "*://*.x.com/*"
       ],
       "js": ["content.js"],
       "run_at": "document_idle"

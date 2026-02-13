@@ -1,5 +1,20 @@
+.content-width {
+  max-width: 70ch;
+  width: calc(100% - 4rem);
+  margin: 0 auto;
+}
+
+@font-face {
+  font-family: "Departure Mono";
+  src: url('assets/departure_mono/DepartureMono-Regular.woff') format("woff"),
+        url('assets/departure_mono/DepartureMono-Regular.otf') format("otf"),
+        url('assets/departure_mono/DepartureMono-Regular.woff2') format("woff")
+}
+
 body{
-    font-family: Helvetica, sans-serif;
-    text-align: center;
-    align-content: center;
+  font-family: "Departure Mono", monospace;
+  background-color: #eeeeee;
+  text-align: center;
+  align-content:  center;
+
 }
