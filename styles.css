@@ -1,20 +1,35 @@
-.content-width {
+* {
   max-width: 70ch;
-  width: 80;
-  margin: 40 auto;
+  
+  margin-top: 50px;
+  text-align: center;
+  align-content: center;
 }
 
 @font-face {
   font-family: "Departure Mono";
-  src: url('assets/DepartureMono-Regular.otf') format("woff"),
-        url('departure_mono/DepartureMono-Regular.otf') format("otf"),
-        url('departure_mono/DepartureMono-Regular.woff2') format("woff")
+  src: url('assets/DepartureMono-Regular.woff') format("woff"),
+        url('assets/DepartureMono-Regular.otf') format("otf"),
+        url('assets/DepartureMono-Regular.woff2') format("woff")
 }
 
-body{
-  font-family: "Departure Mono", monospace;
-  background-color: #eeeeee;
-  text-align: center;
-  align-content:  center;
 
+
+body{
+  font-family: "Departure Mono", Verdana, monospace;
+  background-color: #eeeeee;
+
+}
+
+.heading{
+  margin-top: 25%;
+}
+
+button{
+  align-content: right;
+}
+footer{
+  margin-top: 5%;
+  margin-bottom: 2.5%;
+  align-content: center bottom;
 }

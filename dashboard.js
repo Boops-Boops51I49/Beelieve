@@ -14,6 +14,8 @@ function loadLinks() {
     }
 
     links.forEach((item, index) => {
+      const li = document.createElement("li");
+      li.className = "list-group-item";
       const div = document.createElement("div");
       div.className = "link-item";
 
@@ -31,8 +33,9 @@ function loadLinks() {
 
       div.appendChild(link);
       div.appendChild(deleteBtn);
+      li.appendChild(div)
 
-      container.appendChild(div);
+      container.appendChild(li);
     });
   });
 }
