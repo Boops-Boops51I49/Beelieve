@@ -6,23 +6,22 @@
 
 ## Basic Details
 
-### Team Name: [Name]
+### Team Name: Gauthami
 
 ### Team Members
-- Member 1: [Name] - [College]
-- Member 2: [Name] - [College]
+- Member 1: Gauthami Asok - NSS College of Engineering
 
 ### Hosted Project Link
 [mention your project hosted link here]
 
 ### Project Description
-[2-3 lines about what your project does]
+This project is a browser extension designed to reduce impulsive browsing and promote intentional use of distracting websites. When a user opens a predefined distracting site, the extension pauses access and presents a decision popup allowing them to stay for a limited time, leave immediately, or save the page for later. Saved links are stored and displayed in a dedicated dashboard that can be accessed anytime from the extension.
 
 ### The Problem statement
-[What problem are you solving?]
+Users frequently open distracting websites out of habit and end up spending unplanned time scrolling, which reduces productivity. Even when they find useful content, they often forget to revisit it later.
 
 ### The Solution
-[How are you solving it?]
+A Firefox browser extension that detects distracting websites and interrupts access with a decision popup to stay briefly, leave, or save the page for later. Saved links are stored and organized in a dedicated dashboard, enabling intentional browsing and easy content recovery.
 
 ---
 
@@ -31,25 +30,18 @@
 ### Technologies/Components Used
 
 **For Software:**
-- Languages used: [e.g., JavaScript, Python, Java]
-- Frameworks used: [e.g., React, Django, Spring Boot]
-- Libraries used: [e.g., axios, pandas, JUnit]
-- Tools used: [e.g., VS Code, Git, Docker]
-
-**For Hardware:**
-- Main components: [List main components]
-- Specifications: [Technical specifications]
-- Tools required: [List tools needed]
+- Languages used: Javascript, HTML, CSS
+- Frameworks used: Bootstrap
+- Tools used: [e.g., VS Code, Git]
 
 ---
 
 ## Features
 
 List the key features of your project:
-- Feature 1: [Description]
-- Feature 2: [Description]
-- Feature 3: [Description]
-- Feature 4: [Description]
+- Feature 1: Decision popup – Pauses access and lets users stay briefly, leave, or save the page.
+- Feature 2: Save for later – Stores useful links for future viewing.
+- Feature 3: Saved links dashboard – Dedicated page to view and manage saved content.
 
 ---
 
@@ -66,14 +58,6 @@ List the key features of your project:
 ```bash
 [Run commands - e.g., npm start, python app.py]
 ```
-
-### For Hardware:
-
-#### Components Required
-[List all components needed with specifications]
-
-#### Circuit Setup
-[Explain how to set up the circuit]
 
 ---
 
@@ -215,53 +199,6 @@ xcodebuild -workspace App.xcworkspace -scheme App -configuration Debug
 
 ---
 
-### For Hardware Projects:
-
-#### Bill of Materials (BOM)
-
-| Component | Quantity | Specifications | Price | Link/Source |
-|-----------|----------|----------------|-------|-------------|
-| Arduino Uno | 1 | ATmega328P, 16MHz | ₹450 | [Link] |
-| LED | 5 | Red, 5mm, 20mA | ₹5 each | [Link] |
-| Resistor | 5 | 220Ω, 1/4W | ₹1 each | [Link] |
-| Breadboard | 1 | 830 points | ₹100 | [Link] |
-| Jumper Wires | 20 | Male-to-Male | ₹50 | [Link] |
-| [Add more...] | | | | |
-
-**Total Estimated Cost:** ₹[Amount]
-
-#### Assembly Instructions
-
-**Step 1: Prepare Components**
-1. Gather all components listed in the BOM
-2. Check component specifications
-3. Prepare your workspace
-![Step 1](images/assembly-step1.jpg)
-*Caption: All components laid out*
-
-**Step 2: Build the Power Supply**
-1. Connect the power rails on the breadboard
-2. Connect Arduino 5V to breadboard positive rail
-3. Connect Arduino GND to breadboard negative rail
-![Step 2](images/assembly-step2.jpg)
-*Caption: Power connections completed*
-
-**Step 3: Add Components**
-1. Place LEDs on breadboard
-2. Connect resistors in series with LEDs
-3. Connect LED cathodes to GND
-4. Connect LED anodes to Arduino digital pins (2-6)
-![Step 3](images/assembly-step3.jpg)
-*Caption: LED circuit assembled*
-
-**Step 4: [Continue for all steps...]**
-
-**Final Assembly:**
-![Final Build](images/final-build.jpg)
-*Caption: Completed project ready for testing*
-
----
-
 ### For Scripts/CLI Tools:
 
 #### Command Reference
@@ -374,9 +311,9 @@ python script.py -v --format json data.json
 
 If you used AI tools during development, document them here for transparency:
 
-**Tool Used:** [e.g., GitHub Copilot, v0.dev, Cursor, ChatGPT, Claude]
+**Tool Used:** ChatGPT
 
-**Purpose:** [What you used it for]
+**Purpose:** 
 - Example: "Generated boilerplate React components"
 - Example: "Debugging assistance for async functions"
 - Example: "Code review and optimization suggestions"
@@ -395,14 +332,6 @@ If you used AI tools during development, document them here for transparency:
 - UI/UX design decisions
 
 *Note: Proper documentation of AI usage demonstrates transparency and earns bonus points in evaluation!*
-
----
-
-## Team Contributions
-
-- [Name 1]: [Specific contributions - e.g., Frontend development, API integration, etc.]
-- [Name 2]: [Specific contributions - e.g., Backend development, Database design, etc.]
-- [Name 3]: [Specific contributions - e.g., UI/UX design, Testing, Documentation, etc.]
 
 ---
 

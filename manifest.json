@@ -1,6 +1,6 @@
 {
   "manifest_version": 2,
-  "name": "Focus Freeze",
+  "name": "Are you Sure?",
   "version": "1.0",
   "description": "Freezes distracting websites and forces intentional choice.",
   "permissions": [
