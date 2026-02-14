@@ -51,7 +51,7 @@ List the key features of your project:
 
 #### Installation
  Click 'Add to Firefox' on the link above
-```
+
 
 ---
 
