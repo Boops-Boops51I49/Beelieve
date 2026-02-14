@@ -61,7 +61,7 @@ List the key features of your project:
 
 #### Screenshots (Add at least 3)
 
-![Browser extension](photos\1.png)
+![Browser extension](photos/1.png)
 When you click on the browser extension
 
 ![Browser Pop-up](photos/2.png)
